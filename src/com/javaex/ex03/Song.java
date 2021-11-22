@@ -32,10 +32,7 @@ public class Song {
 	}
 	
 	public void showinfo(){
-		System.out.println(
-		artist+", "+title+"( "+album+", "+year+", "+
-		track+"번 track"+", "+composer+" 작곡 )"
-		);
+		System.out.println(artist+", "+title+"( "+album+", "+year+", "+track+"번 track"+", "+composer+" 작곡 )");
 	}
 	
 	
