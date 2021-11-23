@@ -14,15 +14,15 @@ public class SongApp {
 		IU.setTrack(3);
 		IU.showinfo();
 		
-		System.out.println(IU.toString());
+		//System.out.println(IU.toString());
 		
 		Song BB = new Song();
 		
-		BB.setTitle("거짓말");
-		BB.setArtist("BIGBANG");
-		BB.setAlbum("Always");
-		BB.setComposer("G-DRAGON");
-		BB.setYear("2007");
+		BB.setTitle("9와 4분의 3승강장에서 너를 기다려");
+		BB.setArtist("TOMORROW X TOGETHER");
+		BB.setAlbum("꿈의장:MAGIC");
+		BB.setComposer("Slow Rabbit");
+		BB.setYear("2019");
 		BB.setTrack(2);
 		BB.showinfo();
 		
