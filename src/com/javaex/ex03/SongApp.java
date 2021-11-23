@@ -6,32 +6,34 @@ public class SongApp {
 		
 		Song IU = new Song();
 		
-		IU.settitle("좋은날");
-		IU.setartist("아이유");
-		IU.setalbum("Real");
-		IU.setcomposer("이민수");
-		IU.setyear("2010");
-		IU.settrack(3);
+		IU.setTitle("좋은날");
+		IU.setArtist("아이유");
+		IU.setAlbum("Real");
+		IU.setComposer("이민수");
+		IU.setYear("2010");
+		IU.setTrack(3);
 		IU.showinfo();
+		
+		System.out.println(IU.toString());
 		
 		Song BB = new Song();
 		
-		BB.settitle("거짓말");
-		BB.setartist("BIGBANG");
-		BB.setalbum("Always");
-		BB.setcomposer("G-DRAGON");
-		BB.setyear("2007");
-		BB.settrack(2);
+		BB.setTitle("거짓말");
+		BB.setArtist("BIGBANG");
+		BB.setAlbum("Always");
+		BB.setComposer("G-DRAGON");
+		BB.setYear("2007");
+		BB.setTrack(2);
 		BB.showinfo();
 		
 		Song Busker = new Song();
 		
-		Busker.settitle("벚꽃엔딩");
-		Busker.setartist("버스커버스커");
-		Busker.setalbum("버스커버스커1집");
-		Busker.setcomposer("장범준");
-		Busker.setyear("2012");
-		Busker.settrack(4);
+		Busker.setTitle("벚꽃엔딩");
+		Busker.setArtist("버스커버스커");
+		Busker.setAlbum("버스커버스커1집");
+		Busker.setComposer("장범준");
+		Busker.setYear("2012");
+		Busker.setTrack(4);
 		Busker.showinfo();
 		
 		

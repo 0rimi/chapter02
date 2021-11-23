@@ -9,10 +9,14 @@ public class Point {
 	//메소드 이름 setX, getX, setY, getY,draw로출력
 	
 	public void setX(int xp) {
-		x = xp;
+		if(x>0) {
+			this.x = xp;   //여기에 있는 x란 뜻으로 this
+		}else {
+			this.x = 0;    //if구문도 넣을수 있음
+		}
 	}
 	public void setY(int yp) {
-		y = yp;
+		this.y = yp;
 	}
 	public int getX() {
 		return x;
