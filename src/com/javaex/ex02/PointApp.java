@@ -13,6 +13,9 @@ public class PointApp {
 		//coor2.setX(9);
 		//coor2.setY(13);
 		coor2.draw();
+		
+		Point coor3 = new Point(8,14);
+		coor3.draw(false);
 
 	}
 

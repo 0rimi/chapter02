@@ -11,19 +11,19 @@ public class Point {
 		//해당클래스를 메모리에 올리는 일
 		//안써도 작동함.
 		//디폴트생성자라 다른 생성자가 생기면 없어짐.
-		System.out.println("Point()");
+		//System.out.println("Point()");
 	}
 	
 	public Point(/*int x, */int y) {
 		//this.x = x;
 		this.y  = y;
-		System.out.println("Point(1)");
+		//System.out.println("Point(1)");
 	}
 	
 	public Point(int x, int y) {
 		this.x = x;
 		this.y  = y;
-		System.out.println("Point(2)");
+		//System.out.println("Point(2)");
 	}
 	
 	
@@ -45,8 +45,23 @@ public class Point {
 	public int getY() {
 		return y;
 	}
+	
+	//메소드
 	public void draw() {
 		System.out.println("점 [x="+x+","+" y="+y+"]을 그렸습니다.");
+	}
+	
+	//action에 true가 오면 그리고, 아니면 지우는 기능. 
+	public void draw(boolean action) {
+		if(action == true) {
+			System.out.println("점 [x="+x+","+" y="+y+"]을 그렸습니다.");
+		}
+		else if(action == false){
+			System.out.println("점 [x="+x+","+" y="+y+"]을 지웠습니다.");	
+		}
+		else {
+			System.out.println("잘못된 입력입니다.");
+		}
 	}
 	
 	
