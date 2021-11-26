@@ -11,7 +11,7 @@ public class GoodsApp {
 		Goods computer = new Goods();
 		computer.setName("LG그램");
 		computer.setPrice(900000);
-		System.out.println(computer.toString());
+		//System.out.println(computer.toString());
 		computer.showinfo();
 		
 		Goods cup = new Goods();

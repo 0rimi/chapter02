@@ -11,12 +11,12 @@ public class Goods {
 	
 	//생성자
 	public Goods() {
-		this.sum++;
+		//this.sum++;
 	}
 	public Goods(String name, int price) {
 		this.name = name;
 		this.price = price;
-		this.sum++;
+		//this.sum++;
 	}
 	
 	//메소드g/s
@@ -36,7 +36,7 @@ public class Goods {
 		this.price = price;
 	}
 	public void setSum(int sum) {
-		this.sum = sum;
+		//this.sum = sum;
 	}
 
 	//메소드일반
