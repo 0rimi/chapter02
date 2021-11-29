@@ -57,7 +57,7 @@ public class TriAngle {
 				+ height + "]";
 	}
 	public void draw() {
-		System.out.println("선 색 "+lineColor+", 면 색 "+fillColor+", 밑변 "+width+", 높이 "+height+"cm인 삼각형을 그렸습니다.");
+		System.out.println("선 색 "+lineColor+", 면 색 "+fillColor+", 밑변 "+width+"cm인 원을 그렸습니다.");
 	}
 	
 	
