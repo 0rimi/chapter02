@@ -4,8 +4,8 @@ public class Rectangle {
 	
 	
 	//필드
-	private String line;
-	private String fill;
+	private String lineColor;
+	private String fillColor;
 	private int width;
 	private int height;
 	
@@ -14,26 +14,26 @@ public class Rectangle {
 	public Rectangle() {
 		
 	}
-	public Rectangle(String line, String fill, int width, int height) {
-		this.line = line;
-		this.fill = fill;
+	public Rectangle(String lineColor, String fillColor, int width, int height) {
+		this.lineColor = lineColor;
+		this.fillColor = fillColor;
 		this.width = width;
 		this.height = height;
 	}
 	
 	
 	//메소드 g/s
-	public String getLine() {
-		return line;
+	public String getLineColor() {
+		return lineColor;
 	}
-	public void setLine(String line) {
-		this.line = line;
+	public void setLineColor(String lineColor) {
+		this.lineColor = lineColor;
 	}
-	public String getFill() {
-		return fill;
+	public String getFillColor() {
+		return fillColor;
 	}
-	public void setFill(String fill) {
-		this.fill = fill;
+	public void setFillColor(String fillColor) {
+		this.fillColor = fillColor;
 	}
 	public int getWidth() {
 		return width;
@@ -52,13 +52,13 @@ public class Rectangle {
 	//메소드 일반
 	@Override
 	public String toString() {
-		return "Rectangle [line=" + line + ", Fill=" + fill + ", width=" + width + ", height=" + height + "]";
+		return "Rectangle [lineColor=" + lineColor + ", FillColor=" + fillColor + ", width=" + width + ", height=" + height + "]";
 	}
 	public void draw(){
-		System.out.println("선 색 "+line+", 면 색 "+fill+", 가로 "+width+"cm, 세로 "+height+"cm인 사각형을 그렸습니다.");
+		System.out.println("선 색 "+lineColor+", 면 색 "+fillColor+", 가로 "+width+"cm, 세로 "+height+"cm인 사각형을 그렸습니다.");
 	}
 	public void linedraw() {
-		System.out.println("선 색 "+line);
+		System.out.println("선 색 "+lineColor);
 	}
 	
 	
